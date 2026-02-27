@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to my test project</h1>
+    <h1>Guest List</h1>
+
+    <form action="" id="guestForm">
+        <input type="text" id="name">
+        <input type="email" id="email">
+        <button type="submit">Save</button>
+    </form>
+    <!-- the count number is derived from my UI -->
+     <!-- we compute it from an array -->
+    <h2>Total Guests: <span id="count">0</span></h2>
+    <!-- just a list container now empty but will populate guests  -->
+    <ul id="guestList"></ul>
+    <script src="script.js"></script>
 </body>
 </html>
